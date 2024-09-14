@@ -1,6 +1,7 @@
 package target.tecnica.phillipe;
 
 import target.tecnica.phillipe.target.tecnica.desafioDois;
+import target.tecnica.phillipe.target.tecnica.desafioQuatro;
 import target.tecnica.phillipe.target.tecnica.desafioTres;
 import target.tecnica.phillipe.target.tecnica.desafioUm;
 
@@ -20,7 +21,7 @@ public class Main {
                         "\n1 - Sequência de Fibonacci" +
                         "\n2 - String 'A'" +
                         "\n3 - Descobre o valor de SOMA" +
-                        "\n4 - Lógica" +
+                        "\n4 - Lógica dos números" +
                         "\n5 - Três Interruptores" +
                         "\n6 - Shutdown\n");
                 option = scanner.nextInt();
@@ -42,6 +43,10 @@ public class Main {
                 case 3:
                     desafioTres casoTres = new desafioTres();
                     desafioTres.soma();
+                    break;
+                case 4:
+                    desafioQuatro casoQuatro = new desafioQuatro();
+                    desafioQuatro.proximoElemento();
                     break;
                 case 6:
                     condicaoDeParada = false;
