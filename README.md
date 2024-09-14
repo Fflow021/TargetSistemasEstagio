@@ -1,8 +1,8 @@
 # DESAFIO TARGET - ESTÁGIO EM DESENVOLVIMENTO - Ribeirão Preto
 
-Nome: Phillipe Wolff de Souza dos Santos
+<br>Nome: Phillipe Wolff de Souza dos Santos</br>
 Idade: 23 anos
-Linkedin: https://www.linkedin.com/in/phillipewolffdev/
+<br>Linkedin: https://www.linkedin.com/in/phillipewolffdev/</br>
 Github: https://github.com/Fflow021
 
 ## NOTA
