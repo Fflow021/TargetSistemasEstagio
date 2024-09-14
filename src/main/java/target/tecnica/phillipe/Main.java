@@ -1,6 +1,7 @@
 package target.tecnica.phillipe;
 
 import target.tecnica.phillipe.target.tecnica.desafioDois;
+import target.tecnica.phillipe.target.tecnica.desafioTres;
 import target.tecnica.phillipe.target.tecnica.desafioUm;
 
 import java.util.InputMismatchException;
@@ -37,6 +38,10 @@ public class Main {
                 case 2:
                     desafioDois casoDois = new desafioDois();
                     desafioDois.ExercicioDoisTarget();
+                    break;
+                case 3:
+                    desafioTres casoTres = new desafioTres();
+                    desafioTres.soma();
                     break;
                 case 6:
                     condicaoDeParada = false;
