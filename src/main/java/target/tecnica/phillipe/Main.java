@@ -1,9 +1,6 @@
 package target.tecnica.phillipe;
 
-import target.tecnica.phillipe.target.tecnica.desafioDois;
-import target.tecnica.phillipe.target.tecnica.desafioQuatro;
-import target.tecnica.phillipe.target.tecnica.desafioTres;
-import target.tecnica.phillipe.target.tecnica.desafioUm;
+import target.tecnica.phillipe.target.tecnica.*;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
@@ -17,13 +14,13 @@ public class Main {
         while(condicaoDeParada) {
             int option = 0;
             try {
-                System.out.println("\nEscolha o exercicio para ver" +
+                System.out.println("\nEscolha o desafio para ver:" +
                         "\n1 - Sequência de Fibonacci" +
                         "\n2 - String 'A'" +
-                        "\n3 - Descobre o valor de SOMA" +
+                        "\n3 - Descobrir o valor de SOMA" +
                         "\n4 - Lógica dos números" +
                         "\n5 - Três Interruptores" +
-                        "\n6 - Shutdown\n");
+                        "\n6 - FINALIZA O PROGRAMA\n");
                 option = scanner.nextInt();
             } catch (InputMismatchException e) {
                 System.out.println("Escolha uma das opções!");
@@ -47,6 +44,10 @@ public class Main {
                 case 4:
                     desafioQuatro casoQuatro = new desafioQuatro();
                     desafioQuatro.proximoElemento();
+                    break;
+                case 5:
+                    desafioCinco casoCinco = new desafioCinco();
+                    desafioCinco.interruptores();
                     break;
                 case 6:
                     condicaoDeParada = false;

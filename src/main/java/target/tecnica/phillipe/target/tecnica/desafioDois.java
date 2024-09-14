@@ -11,7 +11,7 @@ public class desafioDois {
 //        System.out.println("Por favor digite uma frase: ");
 //        String inputDoUser = scanner.nextLine();
 //
-        String casoTeste = "Desafio Da Target";
+        String casoTeste = "Desafio da Target";
 
         // Inteiro para contar a quantidade de vezes que um A foi detectado
         int contador = 0;
